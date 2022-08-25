@@ -1,1 +1,2 @@
 # Broken App Issues
+The code wouldn't excute unless all of the promises from the API were fulfilled, so I used the Promise.all(); function to execute once the all of the requests were fullfilled and had data. I also made the call back function async and await for the axios since they are retriving data from the API.
